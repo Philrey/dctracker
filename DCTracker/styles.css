@@ -1,0 +1,136 @@
+* {
+    /*font-family: "Comic Sans MS";    */
+    font-family: Arial, Helvetica, sans-serif;
+}
+small{
+    color: rgb(77, 77, 77);
+}
+.titleBar {
+    z-index: 100;
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: fit-content;
+    vertical-align: middle;
+    
+    background-image: linear-gradient(to right, rgb(255, 239, 11) , rgb(255, 196, 0));
+}   
+.center{
+    text-align: center;
+    margin: auto;
+}
+.left{
+    text-align: left;
+    margin: auto;
+}
+.right{
+    text-align: right;
+    margin: auto;
+}
+.top{
+    vertical-align: top;
+}
+.wrapCol{
+    word-wrap: break-word;
+    text-align: center;
+}
+.limitWidth{
+    width: 80px;
+}
+
+.uielements{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+.leftCard{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    vertical-align: top;
+    padding: 0px;
+}
+.rightCard{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    vertical-align: top;
+    padding: 0px;
+}
+.centerCard{
+    width: auto;
+    text-align: center;
+    padding: 0px;
+    margin-top: 55px;
+}
+#map{
+    height: 100%;
+    z-index: 0;
+}
+
+.roundedSquare {
+    background-color: rgb(162, 221, 0);
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.roundedSquareTest {
+    background-color: rgb(162, 221, 0);
+    display: inline-block;
+    width: fit-content;
+    padding: 5px;
+    margin: 0px;
+}
+.overflowContents{
+    overflow: auto;
+}
+/*Violations*/
+.violations{
+    font-style: bold;
+}
+.notificationTab{
+    color: red;
+    margin: 0;
+}
+.notificationBox{
+    padding: 10px;
+    background-color: rgb(255, 145, 0);
+}
+.violatorName{
+    color: rgb(151, 0, 151);
+}
+.violatorPlate{
+    color: orangered;
+}
+.violatorPlace{
+    color: rgb(39, 39, 153);
+}
+.violatorTime{
+    color: gray;
+}
+/*Dashboard*/
+td {
+    padding: 10px;
+}
+#statusBarR{
+    z-index: 99;
+    position: fixed;
+    height: 100%;
+    width: 250px;
+    margin-top: 24px;
+    right: 0px;
+
+    background-color: cadetblue;
+}
+#statusBarNotifs{
+    background-color: chocolate;
+    width: 100%;
+    height: 200px;
+}
